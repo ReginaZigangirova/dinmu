@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 479px) {
     .reason__container {
         margin-top: 16px;
         grid-template-columns: repeat(auto-fit, 150px);

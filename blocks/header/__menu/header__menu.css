@@ -21,13 +21,13 @@
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 	.header__menu {
 		padding: 161px 398px 162px 150px;
 	}
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 450px) {
 	.header__menu {
 		padding: 161px 398px 162px 90px;
 	}
