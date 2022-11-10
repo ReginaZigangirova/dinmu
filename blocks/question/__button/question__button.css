@@ -1,0 +1,28 @@
+.question__button{
+    font-size: 24px;
+    line-height: 36px;
+    color: #09035D;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    width: 100%;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.question__button:first-child {
+    margin: 0;
+}
+
+.question__button:after {
+    content: 'ᐯ';
+    font-size: 16px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "ᐱ"; 
+}

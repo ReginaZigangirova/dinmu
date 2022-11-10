@@ -1,0 +1,17 @@
+.footer__logo {
+    width: 105px;
+    height: 30px;
+    margin-right: 385px;
+}
+
+@media screen and (max-width: 895px) {
+    .footer__logo {
+        margin-right: 145px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .footer__logo {
+        margin-right: 80px;
+    }
+}

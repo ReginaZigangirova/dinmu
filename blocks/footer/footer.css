@@ -1,0 +1,13 @@
+.footer {
+    padding: 43px 20px 37px;
+    background: #EDEBFC;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 34px 20px 28px 21px;
+        justify-content: space-between;
+    }
+}

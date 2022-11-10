@@ -1,0 +1,14 @@
+.form__checkbox {
+    background-image: url(../../../images/checkbox.svg);
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    max-width: 30px;
+    cursor: pointer;
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}

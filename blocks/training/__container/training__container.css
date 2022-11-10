@@ -1,0 +1,18 @@
+.training__container:nth-child(2n) {
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 480px) {
+    .training__container:nth-child(2n) {
+        margin-top: 30px;
+    }
+    .training__container {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .training__container {
+        margin-top: 30px;
+    }
+}

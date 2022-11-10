@@ -1,0 +1,5 @@
+@media screen and (max-width: 450px) {
+    .school__image {
+        width: 170px;
+    }
+}

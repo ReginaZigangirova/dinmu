@@ -1,0 +1,12 @@
+.reviews__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    .reviews__container {
+        display: block;
+        padding: 0 20px 0;
+    }
+}

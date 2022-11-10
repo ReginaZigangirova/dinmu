@@ -1,0 +1,18 @@
+.cynologist__container {
+    max-width: 470px;
+}
+
+@media screen and (max-width: 768px) {
+    .cynologist__container {
+        max-width: 354px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cynologist__container {
+        max-width: 440px;
+    }
+    .cynologist__container:last-child {
+        margin-top: 20px;
+    }
+}

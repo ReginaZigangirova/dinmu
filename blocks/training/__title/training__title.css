@@ -1,0 +1,16 @@
+.training__title {
+    font-family: 'SeoulHangang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    color: #09035D;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .training__title {
+        padding: 0;
+    }
+}

@@ -1,0 +1,32 @@
+.result {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 225px);
+    grid-column-gap: 20px;
+    padding: 73px 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .result {
+        grid-template-columns: repeat(auto-fit, 167px);
+        grid-column-gap: 20px;
+        padding: 80px 20px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .result {
+        grid-template-columns: repeat(auto-fit, 210px);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        padding: 60px 20px 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .result {
+        grid-template-columns: repeat(auto-fit, 150px);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        padding: 60px 20px 0;
+    }
+}

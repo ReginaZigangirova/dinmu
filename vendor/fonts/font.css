@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'SeoulHangang';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./SeoulHangang-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Post No Bills Colombo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./postnobillscolombo-regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Post No Bills Colombo';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./postnobillscolombo-semibold.ttf") format("ttf");
+}

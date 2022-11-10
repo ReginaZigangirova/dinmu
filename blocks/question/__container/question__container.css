@@ -1,0 +1,15 @@
+.question__container {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    .question__container {
+        padding: 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .question__container {
+        padding: 0;
+    }
+}

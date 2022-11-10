@@ -1,0 +1,15 @@
+.reason__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: -4px -4px 20px rgba(120, 113, 222, 0.1), 4px 4px 20px rgba(120, 113, 222, 0.1);
+    border-radius: 4px;
+    padding: 27.5px 20px 24.5px 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .reason__card {
+        display: block;
+        padding: 20px;
+    }
+}

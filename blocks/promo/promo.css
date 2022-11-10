@@ -1,0 +1,10 @@
+.promo {
+    background: #EDEBFC;
+    padding: 40px 20px 80px;
+}
+
+@media screen and (max-width: 480px) {
+    .promo {
+        padding-bottom: 60px;
+    }
+}

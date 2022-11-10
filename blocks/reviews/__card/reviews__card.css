@@ -1,0 +1,20 @@
+.reviews__card {
+    background: #FFFFFF;
+    padding: 30px;
+    max-width: 410px;
+    box-shadow: -2px -2px 20px rgba(237, 235, 252, 0.5), 2px 2px 20px rgba(237, 235, 252, 0.5);
+}
+
+.reviews__card:first-of-type {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .reviews__card {
+        max-width: 380px;
+        margin-top: 10px;
+    }
+    .reviews__card:first-of-type {
+        margin-bottom: 0;
+    }
+}

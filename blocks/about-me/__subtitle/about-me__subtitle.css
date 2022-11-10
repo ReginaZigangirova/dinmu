@@ -1,0 +1,10 @@
+.about-me__subtitle {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 20px 0 0;
+    color: #7871DE;
+}
+
+.about-me__subtitle:nth-child(3) {
+    margin-top: 10px;
+}

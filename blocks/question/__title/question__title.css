@@ -1,0 +1,15 @@
+.question__title {
+    font-family: 'SeoulHangang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100.02%;
+    margin: 0;
+    color: #09035D;
+}
+
+@media screen and (max-width: 480px) {
+    .question__title {
+        font-size: 30px;
+    }
+}

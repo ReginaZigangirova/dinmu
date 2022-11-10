@@ -1,0 +1,18 @@
+.about-me__subhead {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px 0 0;
+    color: #7871DE;
+}
+
+@media screen and (max-width: 768px) {
+    .about-me__subhead {
+        max-width: 157px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-me__subhead {
+        max-width: 380px;
+    }
+}

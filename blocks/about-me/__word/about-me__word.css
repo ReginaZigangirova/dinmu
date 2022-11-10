@@ -1,0 +1,17 @@
+.about-me__word {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .about-me__word {
+        max-width: 232px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-me__word {
+        max-width: 380px;
+    }
+}

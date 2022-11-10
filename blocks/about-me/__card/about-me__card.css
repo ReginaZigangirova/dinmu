@@ -1,0 +1,30 @@
+.about-me__card {
+    background: #FFFFFF;
+    box-shadow: -4px -4px 20px rgba(120, 113, 222, 0.1), 4px 4px 20px rgba(120, 113, 222, 0.1);
+    border-radius: 4px;
+    padding: 30px;
+    max-width: 410px;
+    max-height: 329px;
+}
+
+.about-me__card:first-of-type {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-me__card {
+        max-width: 294px;
+        max-height: 440px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-me__card {
+        max-width: 380px;
+        /* max-height: 323px; */
+        margin-top: 10px;
+    }
+    .about-me__card:first-of-type {
+        margin-bottom: 10px;
+    }
+}

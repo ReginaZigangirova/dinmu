@@ -1,0 +1,22 @@
+@media screen and (max-width: 895px) {
+    .promo__img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .promo__img {
+        display: block;
+        width: 440px;
+       height: 421px;
+       border-radius: 100px 0px;
+       object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .promo__img {
+        max-width: 100%;
+        height: auto;
+    }
+}

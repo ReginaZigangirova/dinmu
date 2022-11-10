@@ -1,0 +1,10 @@
+.cynologist {
+    padding: 80px 20px 80px;
+    background: #7871DE;
+}
+
+@media screen and (max-width: 480px) {
+    .cynologist {
+        padding: 60px 20px 60px;
+    }
+}

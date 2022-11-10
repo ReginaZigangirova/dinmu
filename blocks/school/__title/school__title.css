@@ -1,0 +1,16 @@
+.school__title {
+    font-family: 'SeoulHangang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100.02%;
+    margin: 0;
+    color: #09035D;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .school__title {
+        font-size: 30px;
+    }
+}

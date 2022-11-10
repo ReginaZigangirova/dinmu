@@ -1,0 +1,15 @@
+@media screen and (max-width: 999px) {
+    .training__line {
+        width: 100vw;
+        min-width: 100vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .training__line {
+        display: none;
+    }
+}
+
+
+

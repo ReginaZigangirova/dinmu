@@ -1,0 +1,15 @@
+.cynologist__title {
+    font-family: 'SeoulHangang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100.02%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .cynologist__title {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,23 @@
+.result__title {
+    font-family: 'SeoulHangang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #09035D;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .result__title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .result__title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+}

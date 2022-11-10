@@ -1,0 +1,12 @@
+.header__list-item {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.header__list-item:first-of-type {
+    margin: 0;
+}
+
+.header__list-item:hover {
+    color: #09035D;
+}

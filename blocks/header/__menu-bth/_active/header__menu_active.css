@@ -1,0 +1,12 @@
+.header__menu-bth_active {
+	position: relative;
+	z-index:2;
+	overflow: hidden;
+    background-image: url(../../../../images/close.svg);
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 22.5px 17px;
+    width: 22.5px;
+    height: 17px;
+}

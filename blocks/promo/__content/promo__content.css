@@ -1,0 +1,9 @@
+.promo__content {
+    display: flex;
+}
+
+@media screen and (max-width: 895px) {
+    .promo__content {
+        flex-wrap: wrap-reverse;
+    }
+}

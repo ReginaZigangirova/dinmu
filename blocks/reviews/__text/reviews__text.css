@@ -1,0 +1,18 @@
+.reviews__text {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+    color: #0F0F10;
+}
+
+@media screen and (max-width: 768px) {
+    .reviews__text {
+        max-width: 294px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .reviews__text {
+        max-width: 380px;
+    }
+}

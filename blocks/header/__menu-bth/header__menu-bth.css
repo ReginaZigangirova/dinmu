@@ -1,0 +1,24 @@
+.header__menu-bth {
+	position: relative;
+	z-index:2;
+	overflow: hidden;
+    background-image: url(../../../images/burger.svg);
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 22.5px 17px;
+    width: 22.5px;
+    height: 17px;
+    cursor: pointer;
+}
+.header__menu-bth.activ {
+    display: none;
+  }
+  .header__menu-bth.activ {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);  
+  }
+  .header__menu-bth.activ {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg); 
+  }

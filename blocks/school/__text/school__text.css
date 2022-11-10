@@ -1,0 +1,26 @@
+.school__text {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 90px 0 0;
+    color: #09035D;
+    max-width: 225px;
+}
+
+@media screen and (max-width: 850px) {
+    .school__text {
+        max-width: 167px;
+        margin-right: 76px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .school__text {
+        max-width: 150px;
+        margin-right: 0;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+
+

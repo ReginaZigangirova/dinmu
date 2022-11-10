@@ -1,0 +1,8 @@
+.header__network {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header__network:last-child {
+    margin: 0;
+}

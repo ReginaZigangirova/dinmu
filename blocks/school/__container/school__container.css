@@ -1,0 +1,13 @@
+.school__container {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .school__container {
+        display: block;
+        margin: 120px 0 0;
+    }
+    .school__container:first-of-type {
+        margin: 0;
+    }
+}

@@ -1,0 +1,19 @@
+.promo__container {
+    background: #FFFFFF;
+    border-radius: 100px 0 0;
+    padding: 75px 29px 75px 75px;
+}
+
+@media screen and (max-width: 895px) {
+    .promo__container {
+        background: #EDEBFC;
+        padding: 0;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .promo__container {
+        margin-top: 20px;
+    }
+}

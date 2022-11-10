@@ -1,0 +1,34 @@
+.header__menu {
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 161px 398px 162px 399px;
+    background: rgba(120, 113, 222, 0.8);
+    backdrop-filter: blur(10px);
+	transform: translateX(-100%);
+	transition: transform 0.5s; 
+}
+
+.header__menu.activ {
+	transform: translateX(0);
+}
+
+@media screen and (max-width: 768px) {
+	.header__menu {
+		padding: 161px 398px 162px 300px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.header__menu {
+		padding: 161px 398px 162px 150px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.header__menu {
+		padding: 161px 398px 162px 90px;
+	}
+}

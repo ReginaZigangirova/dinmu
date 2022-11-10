@@ -1,0 +1,9 @@
+.school__img {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .school__img {
+        display: block;
+    }
+}

@@ -1,0 +1,18 @@
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 750px) {
+    .footer__container {
+        flex-wrap: wrap-reverse;
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer__container {
+        justify-content: flex-end;
+    }
+}

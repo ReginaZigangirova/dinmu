@@ -1,0 +1,25 @@
+.form {
+    padding: 80px 116px 80px;
+    background: #7871DE;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 940px) {
+    .form {
+        padding: 80px 35px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .form {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form {
+        display: block;
+        padding: 60px 20px 60px;
+    }
+}

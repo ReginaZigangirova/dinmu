@@ -1,0 +1,15 @@
+.school__comand {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color: #0F0F10;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .school__comand {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

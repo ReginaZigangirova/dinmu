@@ -1,0 +1,17 @@
+.school__content {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .school__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 66px;
+        margin-bottom: 60px;
+    }
+    .school__content:last-of-type {
+        margin-top: 60px;
+        margin-bottom: 0;
+    }
+}
